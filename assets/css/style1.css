@@ -1,0 +1,705 @@
+/* max width 980px*/
+/*
+@media screen and (max-width: 980px) {
+
+body {
+	background-image: url("https://i.imgur.com/0Dzm97N.png");
+	margin: 0;
+}
+
+header {
+	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 20px; 
+	text-align: center;
+	height: 80px;
+	width: 100;	 
+	margin-bottom: 3%;
+    border-bottom: 2px solid #cccccc;  
+}
+
+h1 {
+	color: #4aaaa5;
+	font-size: 33px;
+	font-weight: bold;
+	padding: 6% 2% 5% 4%;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.7;
+	padding: 2% 5% 5% 7%;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 6% 2% 4% 9%;	
+}
+
+footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+	background-color: #666666;
+	text-align: center;
+	line-height: 3.5;
+	border-top: 6px solid #4aaaa5;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	margin-top: 5%;
+	clear: both;
+}
+
+.wrapper {
+	width: 950px;
+}
+
+.Namebox {
+	background-color: #4aaaa5;
+	font-size: 30px;
+	color: white;
+	padding: 25px 30px 25px 30px;
+	float: left;
+	margin-left: 12%;
+	margin-right: 20%;
+}
+
+.Headerlink {	
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: normal;
+	padding: 3% 0 0 0;
+	margin-left: 5%;
+	float: left;
+}
+
+.Maintextbox { 
+	width: 400px;
+	float: left;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	margin: 2% 2% 8% 12%;
+	clear: both;
+}
+
+.Textline {
+	font-weight: bold;
+    border-bottom: 2px solid #cccccc;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Profile_pic {
+	float : left;
+	margin: 5% 4% 3% 6%;
+    width: 350px;
+    height: auto;
+}
+
+.Connectbox {
+	width: 250px;
+	float: left;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	margin: 2% 1% 3% 5%;
+	padding: 1% 2% 2% 2%;
+}
+
+#Connect_icon {
+	display: inline;
+	margin: 10% 4% 4% 4%;
+	width: 60px;
+}
+
+
+/*Portpolio Page*/
+/*
+.Portfoliobox {
+    float: left;
+    width: 100%;
+    max-width: 610px;
+    padding: 0 2% 2% 2%;
+    margin: 0 0 8% 0;
+    background: #fff;
+	border: 1px solid #cccccc;
+}
+
+.Portfolioset {
+    position: relative;
+    float: left;
+    width: 360px;
+    height: auto;
+    margin: 5% 0 1% 5%;
+    overflow: auto;
+}
+.Portfolioset:nth-child(even) {
+    margin-right: 5%;
+}
+.Portfolioset img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+.Portfolioset h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
+
+/*Contact Page*/
+/*
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 3% 0 7%;
+    background: #fff;
+    border: 1px solid #cccccc;
+}
+
+#contact-form ul {
+    margin: 2% 4% 2% 3%;
+    padding: 2% 0 2% 0;
+}
+
+#contact-form li {
+    margin: 2% 4% 2% 3%;
+    padding: 1% 0 1% 0;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 2% 0 0 0;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 0 0 2%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #cccccc;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+    margin: 2% 0 3% 3%;
+}
+}
+*/
+/* max width 768px*/
+/*
+@media screen and (max-width: 768px) {
+
+body {
+	background-image: url("https://i.imgur.com/0Dzm97N.png");
+	margin: 0;
+}
+
+header {
+	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 20px; 
+	text-align: center;
+	height: 80px;
+	width: 100;	 
+	margin-bottom: 3%;
+    border-bottom: 2px solid #cccccc;  
+}
+
+h1 {
+	color: #4aaaa5;
+	font-size: 33px;
+	font-weight: bold;
+	padding: 6% 2% 5% 4%;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.7;
+	padding: 5% 5% 0 7%;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 6% 2% 4% 9%;	
+}
+
+footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+	background-color: #666666;
+	text-align: center;
+	line-height: 3.5;
+	border-top: 6px solid #4aaaa5;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	margin-top: 5%;
+	clear: both;
+}
+
+.wrapper {
+	width: 760px;
+}
+
+.Namebox {
+	background-color: #4aaaa5;
+	font-size: 30px;
+	color: white;
+	padding: 25px 30px 25px 30px;
+	float: left;
+	margin-left: 3%;
+	margin-right: 25%;
+}
+
+.Headerlink {	
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: normal;
+	padding: 4% 0 0 0;
+	margin-left: 5%;
+	float: left;
+}
+
+.Maintextbox { 
+	width: 710px;
+	float: left;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	margin: 2% 2% 4% 3%;
+	padding-bottom: 5%;
+	clear: both;
+}
+
+.Textline {
+	font-weight: bold;
+    border-bottom: 2px solid #cccccc;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#Profile_pic {
+	float : left;
+	margin: 5% 4% 3% 6%;
+    width: 350px;
+    height: auto;
+}
+
+.Connectbox {
+	width: 250px;
+	float: left;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	margin: 0 1% 10% 3%;
+	padding: 1% 58.5% 2% 2%;
+}
+
+#Connect_icon {
+	display: inline;
+	margin: 10% 4% 4% 4%;
+	width: 60px;
+}
+
+
+/*Portpolio Page*/
+/*
+.Portfoliobox {
+    float: left;
+    width: 100%;
+    max-width: 710px;
+    padding: 0 1% 1% 1%;
+    margin: 0 0 8% 0;
+    background: #fff;
+	border: 1px solid #cccccc;
+}
+
+.Portfolioset {
+    position: relative;
+    float: left;
+    width: 315px;
+    height: 220px;
+    margin: 5% 3% 1% 3%;
+    overflow: auto;
+}
+.Portfolioset:nth-child(even) {
+    margin-right: 2%;
+}
+.Portfolioset img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+.Portfolioset h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
+
+/*Contact Page*/
+/*
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 3% 0 7%;
+    background: #fff;
+    border: 1px solid #cccccc;
+}
+
+#contact-form ul {
+    margin: 1% 4% 1% 3%;
+    padding: 1% 0 1% 0;
+}
+
+#contact-form li {
+    margin: 1% 4% 1% 3%;
+    padding: 1% 0 1% 0;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 2% 0 0 0;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 0 0 2%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #cccccc;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    height: 230px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+    margin: 2% 0 3% 6%;
+}
+}
+
+*/
+
+/* max width 640px*/
+
+@media screen and (max-width: 640px) {
+
+body {
+	background-image: url("https://i.imgur.com/0Dzm97N.png");
+	margin: 0;
+}
+
+header {
+	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 20px; 
+	text-align: center;
+	width: 100;	 
+	padding-bottom: 21%;
+	margin-bottom: 3%;
+    border-bottom: 2px solid #cccccc;  
+}
+
+h1 {
+	color: #4aaaa5;
+	font-size: 33px;
+	font-weight: bold;
+	padding: 6% 2% 5% 4%;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.7;
+	padding: 2% 5% 0 7%;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 6% 2% 4% 9%;	
+}
+
+footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+	background-color: #666666;
+	text-align: center;
+	line-height: 3.5;
+	border-top: 6px solid #4aaaa5;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	margin-top: 5%;
+	clear: both;
+}
+
+.wrapper {
+	width: 630px;
+}
+
+
+.Namebox {
+	position: relative;
+	background-color: #4aaaa5;
+	font-size: 30px;
+	color: white;
+	padding: 25px 226px 25px 226px;
+	float: left;
+	top: 0;
+	left: 0;
+}
+
+/*
+.Namebox {
+	position: absolute;
+	background-color: #4aaaa5;
+	font-size: 30px;
+	color: white;
+	padding: 25px 226.5px 25px 226.5px;
+	float: left;
+}
+
+
+.Headerlink {
+	border-bottom: 2px solid #cccccc;
+    background-color: white;	
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: normal;
+	padding: 3% 12.86% 3% 12.86%;
+	float: left;
+}*/
+
+.Headerlink {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: normal;
+	padding: 3% 12% 3% 12%;
+	float: left;
+}
+
+.Maintextbox { 
+	width: 600px;
+	float: left;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	margin: 3% 2% 5% 3%;
+	padding-bottom: 5%;
+	clear: both;
+}
+
+
+.Textline {
+	font-weight: bold;
+    border-bottom: 2px solid #cccccc;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Profile_pic {
+	float : left;
+	margin: 5% 4% 3% 6%;
+    width: 530px;
+    height: auto;
+}
+
+.Connectbox {
+	width: 250px;
+	float: left;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	margin: 0 3% 15% 3%;
+	padding: 1% 53% 2% 2%;
+}
+
+#Connect_icon {
+	display: inline;
+	margin: 10% 3% 4% 4%;
+	width: 60px;
+}
+
+
+/*Portpolio Page*/
+
+.Portfoliobox {
+    float: left;
+    width: 100%;
+    max-width: 630px;
+    padding: 0 1% 1% 1%;
+    margin: 0 0 8% 0;
+    background: #fff;
+	border: 1px solid #cccccc;
+}
+
+.Portfolioset {
+    position: relative;
+    float: left;
+    width: 560px;
+    height: auto;
+    margin: 5% 3% 1% 3%;
+    overflow: auto;
+}
+/*
+.Portfolioset:nth-child(even) {
+    margin-right: 2%;
+}
+*/
+.Portfolioset img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+.Portfolioset h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
+
+/*Contact Page*/
+
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 3% 0 7%;
+    background: #fff;
+    border: 1px solid #cccccc;
+}
+
+#contact-form ul {
+    margin: 1% 4% 1% 3%;
+    padding: 1% 0 1% 0;
+}
+
+#contact-form li {
+    margin: 1% 4% 1% 3%;
+    padding: 1% 0 1% 0;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 2% 0 0 0;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 0 0 2%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #cccccc;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    height: 230px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+    margin: 2% 0 3% 6%;
+}
+}
