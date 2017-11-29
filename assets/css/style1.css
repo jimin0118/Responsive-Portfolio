@@ -466,7 +466,7 @@ header {
 	font-weight: bold;
 	font-size: 20px; 
 	text-align: center;
-	width: 100;	 
+	width: 100%;	 
 	padding-bottom: 9%;
 	margin-bottom: 3%;
     border-bottom: 2px solid #cccccc;  
